@@ -6,12 +6,10 @@
   var STR_X = 'x';
 
   nx.guid = function () {
-    return STR_TMPL.replace(/[xy]/g, function (c) {
-      var r = Math.random() * 16 | 0,
-        v = c == STR_X
-          ? r
-          : (r & 0x3 | 0x8);
-      return v.toString(16);
+    return STR_TMPL.replace(/[xy]/g, function (char) {
+      var random = Math.random() * 16 | 0;
+      var value = (char == STR_X) ? random : (random & 0x3 | 0x8);
+      return value.toString(16);
     });
   };
 
