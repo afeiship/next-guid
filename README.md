@@ -1,10 +1,12 @@
 # next-guid
-> Simple guid for next.
+> Simple guid for next
 
-## resources:
-+ https://www.cnblogs.com/snandy/p/3261754.html
+## installation
+```bash
+npm install -S afeiship/next-guid --registry=https://registry.npm.taobao.org
+```
 
-
-## comments:
-+ 微软的GUID算法十分复杂，依赖时间＋硬件＋随机
-+ 所以，前端实现的只能是相对复杂一点的随机算法
+## usage
+```js
+//DOCS here!
+```

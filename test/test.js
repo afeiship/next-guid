@@ -1,20 +1,15 @@
-var assert = require('assert');
 var nx = require('next-js-core2');
 require('../src/next-guid');
 
-describe('next/guid', function () {
 
-  it('nx.guid  not equal', function () {
+test('nx.guid', function () {
+  var obj1 = {name: 'fei'};
+  var obj2 = {email: '1290657123@qq.com'};
 
-    var guid1 = nx.guid();
-    var guid2 = nx.guid();
-    var guid3 = nx.guid();
+  var result = {};
 
+  nx.guid(result, obj1, obj2);
 
-    assert.notEqual(guid1,guid2);
-    assert.notEqual(guid2,guid3);
-    assert.notEqual(guid3,guid1);
-
-  });
-
+  expect(result.name, obj1.name).toBe(null);
 });
+
