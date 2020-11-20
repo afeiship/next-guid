@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-guid
+ * name: @jswork/next-guid
  * description: Simple guid for next.
  * homepage: https://github.com/afeiship/next-guid
  * version: 1.0.0
- * date: 2020-07-04T04:54:06.341Z
+ * date: 2020-11-20 20:50:39
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var STR_TMPL = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx';
   var STR_X = 'x';
 
@@ -25,5 +25,3 @@
     module.exports = nx.guid;
   }
 })();
-
-//# sourceMappingURL=next-guid.js.map
