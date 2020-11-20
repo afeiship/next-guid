@@ -3,7 +3,7 @@
  * description: Simple guid for next.
  * homepage: https://github.com/afeiship/next-guid
  * version: 1.0.0
- * date: 2020-11-20 20:50:39
+ * date: 2020-11-20 20:53:14
  * license: MIT
  */
 
