@@ -1,3 +1,3 @@
 interface NxStatic {
-  guid: any;
+  guid: () => string;
 }

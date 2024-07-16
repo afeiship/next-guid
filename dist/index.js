@@ -2,8 +2,8 @@
  * name: @jswork/next-guid
  * description: Simple guid for next.
  * homepage: https://js.work
- * version: 1.0.1
- * date: 2024-07-16 16:21:25
+ * version: 1.0.2
+ * date: 2024-07-16 21:08:33
  * license: MIT
  */
 
