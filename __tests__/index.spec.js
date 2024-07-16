@@ -1,12 +1,9 @@
-(function () {
-  require('../src');
+require('../src');
 
-  describe('api.basic test', () => {
-    test('nx.guid', function () {
-      console.log(nx.guid());
-      console.log(nx.guid());
-      console.log(nx.guid());
-      console.log(nx.guid());
-    });
+describe('api.basic test', () => {
+  test('Generate guid str', function () {
+    const res1 = nx.guid();
+    const res2 = nx.guid();
+    expect(res1.length === res2.length).toBe(true);
   });
-})();
+});
