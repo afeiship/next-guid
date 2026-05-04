@@ -1,5 +1,4 @@
-require('../src');
-
+import '../src';
 describe('api.basic test', () => {
   test('Generate guid str', function () {
     const res1 = nx.guid();

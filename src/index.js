@@ -11,8 +11,8 @@ nx.guid = function () {
   });
 };
 
-if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
-  module.exports = nx.guid;
-}
+// if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
+//   module.exports = nx.guid;
+// }
 
 export default nx.guid;

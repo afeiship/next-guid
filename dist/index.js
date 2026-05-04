@@ -2,11 +2,10 @@
  * name: @jswork/next-guid
  * description: Simple guid for next.
  * homepage: https://js.work
- * version: 1.0.2
- * date: 2024-07-16 21:08:33
+ * version: 1.0.3
+ * date: 2026-05-04 17:23:30
  * license: MIT
  */
-
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -26,7 +25,8 @@ _next['default'].guid = function () {
     return value.toString(16);
   });
 };
-if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
-  module.exports = _next['default'].guid;
-}
+
+// if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
+//   module.exports = nx.guid;
+// }
 var _default = (exports['default'] = _next['default'].guid);
